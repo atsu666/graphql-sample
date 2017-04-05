@@ -11,8 +11,8 @@ function graphQLFetcher(graphQLParams) {
     return fetch('https://api.github.com/graphql', {
         method: 'post',
         headers: {
-            // 'Content-Type': 'application/json',
-            Authorization: 'token 79bdc44d18970a8e33826f650c47aeb0d0a7dd3c'
+            'Content-Type': 'application/json',
+            Authorization: 'token 93dfb48c932362fd1c2d441ba69dad5a64a5c6fa'
         },
         body: JSON.stringify(graphQLParams),
     }).then(response => response.json());
