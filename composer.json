@@ -1,0 +1,14 @@
+{
+    "name": "atsu666/graphql-sample",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "atsu666",
+            "email": "ito.atsu666@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/installer": "^1.3"
+    }
+}

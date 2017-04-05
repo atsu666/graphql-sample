@@ -1,0 +1,2 @@
+export const FETCHENTRIES = 'FETCHENTRIES';
+export const SETENTRIES = 'SETENTRIES';
