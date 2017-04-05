@@ -12,7 +12,7 @@ function graphQLFetcher(graphQLParams) {
         method: 'post',
         headers: {
             'Content-Type': 'application/json',
-            Authorization: 'token 93dfb48c932362fd1c2d441ba69dad5a64a5c6fa'
+            Authorization: 'token 20f370bb2ebd6afb7be18cb748372d9be94ede63'
         },
         body: JSON.stringify(graphQLParams),
     }).then(response => response.json());
