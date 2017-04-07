@@ -177,6 +177,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /**
+         * Add
+         */
+//        Folklore\GraphQL\ServiceProvider::class,
+        Nuwave\Relay\LaravelServiceProvider::class,
+
     ],
 
     /*
@@ -226,6 +232,12 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /**
+         * Add
+         */
+//        'GraphQL' => Folklore\GraphQL\Support\Facades\GraphQL::class,
+        'GraphQL' => Nuwave\Relay\Facades\GraphQL::class,
+        'Relay' => Nuwave\Relay\Facades\Relay::class,
     ],
 
 ];
